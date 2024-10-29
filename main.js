@@ -79,7 +79,7 @@ let matchedPairs = 0;
     td.innerHTML = '<img src="img/backside.jpg">';
 });
 
-document.querySelector('button').addEventListener('click', startGame);
+window.addEventListener('load', startGame);
 
 function startGame() {
   console.log('Game started');
@@ -111,7 +111,7 @@ function flipCard(event) {
   const cardIndex = Array.from(cards).indexOf(td);
     console.log(td.children[0].src);
 
-  if (td.children[0].src === `http://127.0.0.1:5500/matchGame/matchGame/img/backside.jpg`) { //this link wont for you :)
+  if (td.children[0].src.includes(`img/backside.jpg`)) { //this link wont for you :)
     const img = td.children[0]
     img.src = shuffledImages[cardIndex];
     // td.appendChild(img);
