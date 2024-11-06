@@ -7,7 +7,7 @@ I am a crazy plant lady so this project was another favorite!
 
 **Link to project:** https://memorymatched.netlify.app/
 
-![alt tag](https://i.imgur.com/TpJ4MW8.png)
+![alt tag](https://i.imgur.com/3e2h67F.png)
 
 
 **Tech used:** HTML, CSS & Javascript
