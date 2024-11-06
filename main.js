@@ -160,7 +160,7 @@ function checkForMatch() {
       cards.forEach(td => {
         td.addEventListener('click', flipCard);
       });
-    },300);
+    },500);
    
   }
   
